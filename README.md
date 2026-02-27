@@ -72,7 +72,7 @@ python main.py
 
 ## Flujo de ejecución
 
-1. `main.py` calcula fechas.
+1. `main.py` llama a las parte y calcula la fecha.
 2. `session/c3_session.py` autentica y devuelve una sesión HTTP.
 3. `downloader/reports_downloader.py` descarga reportes RAW.
 4. `etl/extract.py` lee los Excel descargados.
